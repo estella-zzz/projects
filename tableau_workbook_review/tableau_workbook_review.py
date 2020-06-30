@@ -51,7 +51,7 @@ if local == False:
     
     ##Connection
     tableau_auth = TSC.TableauAuth(ldap,pwd)
-    server = TSC.Server('https://public.indeed.com')
+    server = TSC.Server('https://public.tableau.com')
     server.auth.sign_in(tableau_auth)
 else:
     file_path = input("file path:")
